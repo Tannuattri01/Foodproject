@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(50, 49, 49);
+}
+
+.div1 {
+    width: 35%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    margin: 18px;
+    margin-left: 100px;
+}
+
+.h2 {
+    color: orange;
+    font-size: 30px;
+    margin-top: 34px;
+}
+
+.navItem {
+    color: white;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    transition: 1s;
+    
+}
+
+.menu {
+    color: orange;
+}
+
+.main {
+
+    display: flex;
+}
+
+.gridForMenuDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.iconic,
+.PIZZA,
+.SANDWITCH {
+    color: white;
+    padding-left: 20px;
+}
+
+.menuList {
+    color: white;
+}
+
+.iconicpizza,
+.PAMBAZOS,
+.peperoni {
+    color: orange;
+    height: 285px;
+    width: 600px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+.iconicpizza,
+.PAMBAZOS,
+.peperoni {
+    display: flex;
+}
+
+.disDescription,
+.discription {
+    padding-left: 20px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 80px;
+    height: 43px;
+    width: 100px;
+}
+.navimage{
+    height: 30px;
+    width: 30px;
+    display: none;
+    margin: 40px;
+}
+.menuList {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.ourmenu {
+    color: orange;
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: rgb(233, 197, 131);
+    transform: scale(1.2);
+}
+
+.home:hover,
+.us:hover,
+.menu:hover,
+.about:hover,
+.loc:hover,
+.feed:hover,
+.gall:hover,
+.down:hover {
+    transform: scale(1.2);
+}
+
+.ourmenu:hover {
+    transform: scale(1.2);
+}
+@media screen and (max-width:900px) {
+    .navItem {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        display: none;
+
+    }
+    .navimage{
+        display:block
+    }
+    .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media screen and (max-width:941px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .gridForMenuDetails {
+        /* width: 100%; */
+        display: inline-block;
+        color: white;
+        align-content: stretch;
+    }
+}
+
+
+
+@media  (min-width:941px) and (max-width: 1569px) {
+    .gridForMenuDetails {
+        /* width: 100%; */
+        display: inline-block;
+        color: white;
+        align-content: stretch;
+    }
+}
